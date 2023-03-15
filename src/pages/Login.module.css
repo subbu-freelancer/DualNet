@@ -1,22 +1,20 @@
 .image1Icon,
-
-
 .image2Icon {
   position: absolute;
   top: 0;
   left: 0;
-  /* width: 1300px;
-  height: 768px; */
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .image1Icon {
   top: 34px;
   left: 58px;
   width: 132px;
   height: 74.61px;
 }
+
 .header {
   position: absolute;
   top: calc(50% - 364px);
@@ -25,6 +23,7 @@
   height: 150px;
   overflow: hidden;
 }
+
 .image3Icon,
 .image4Icon {
   position: absolute;
@@ -35,11 +34,13 @@
   height: 475px;
   object-fit: cover;
 }
+
 .image4Icon {
   left: 403px;
   border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
   width: 479px;
 }
+
 .loginButtonChild {
   position: absolute;
   top: calc(50% - 16.5px);
@@ -48,12 +49,14 @@
   width: 200px;
   height: 40px;
 }
+
 .logIn {
   position: absolute;
   top: calc(50% - 12.5px);
   left: calc(50% - 24.5px);
   -webkit-text-stroke: 0.5px #f5f5f5;
 }
+
 .loginButton {
   position: absolute;
   top: calc(50% + 61px);
@@ -62,7 +65,10 @@
   width: 199px;
   height: 33px;
   overflow: hidden;
+  cursor: pointer;
+  /* add cursor pointer */
 }
+
 .image5Icon {
   position: absolute;
   top: 14px;
@@ -72,26 +78,37 @@
   height: 31px;
   object-fit: cover;
 }
+
 .passwordChild {
   position: absolute;
-  top: 53.5px;
+  top: 50.5px;
   left: -1.5px;
   border-top: 1px solid var(--color-white);
   box-sizing: border-box;
   width: 251px;
   height: 1px;
 }
-.div {
+
+.passwordInput {
   position: absolute;
-  top: 29px;
+  top: 14px;
   left: 0;
+  width: 100%;
+  height: 39px;
+  border: none;
+  background: transparent;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  outline: none;
 }
+
 .enterYourPassword {
   position: absolute;
   top: 4px;
   left: -1px;
   font-size: var(--font-size-sm);
 }
+
 .password {
   position: absolute;
   top: 117px;
@@ -100,6 +117,18 @@
   height: 56px;
   overflow: hidden;
   font-size: 12px;
+}
+
+.passwordEyeIcon {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .emailChild,
@@ -126,7 +155,6 @@
   width: 100%;
   height: 38px;
   border: none;
-  border-bottom: 1px solid var(--color-white);
   background: transparent;
   font-size: var(--font-size-sm);
   color: var(--color-white);
@@ -146,9 +174,11 @@
 .createAnAccount1 {
   text-decoration: underline;
 }
+
 .createAnAccount {
   color: inherit;
 }
+
 .loginDemoOrContainer {
   position: absolute;
   top: 11px;
@@ -157,6 +187,7 @@
   width: 237px;
   height: 20px;
 }
+
 .loginDemoOrCreateAnAccounWrapper {
   position: absolute;
   top: 240px;
@@ -168,10 +199,12 @@
   font-size: 10px;
   color: inherit;
 }
+
 .form,
 .welcome {
   position: absolute;
 }
+
 .form {
   top: calc(50% - 99.5px);
   left: calc(50% - 400px);
@@ -179,6 +212,7 @@
   height: 306px;
   overflow: hidden;
 }
+
 .welcome {
   top: 13px;
   left: 20px;
@@ -186,6 +220,7 @@
   width: 156px;
   height: 44px;
 }
+
 .dualnetClient {
   position: absolute;
   top: 67px;
@@ -194,6 +229,7 @@
   color: var(--color-white);
   -webkit-text-stroke: 0.5px #fff;
 }
+
 .title {
   position: absolute;
   top: calc(50% - 205.5px);
@@ -203,11 +239,13 @@
   font-size: 36px;
   color: #9c59f5;
 }
+
 .login,
 .main,
 .title {
   overflow: hidden;
 }
+
 .main {
   position: absolute;
   top: calc(50% - 227px);
@@ -215,6 +253,7 @@
   width: 1000px;
   height: 499px;
 }
+
 .login {
   position: relative;
   background-color: #aaa;
